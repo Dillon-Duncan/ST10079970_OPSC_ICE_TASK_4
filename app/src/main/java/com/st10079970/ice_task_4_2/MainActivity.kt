@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = PlacesAdapter(emptyList()) // Initialize with an empty list
+        recyclerView.adapter = PlacesAdapter(emptyList())
     }
 
     private fun checkLocationPermission() {
@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
                     location?.let {
                         currentLat = it.latitude
                         currentLon = it.longitude
-                        fetchNearbyPlaces()  // Default fetch when the app is opened
+                        fetchNearbyPlaces()
                     }
                 }
         }
