@@ -1,4 +1,4 @@
-# Nearby Places Finder App
+# ST10079970
 
 ## Overview
 This Android application allows users to search for nearby places such as restaurants, hospitals, gas stations, or any other types of locations based on their current location. The app leverages the **Google Places API** to fetch nearby places and displays the results in a user-friendly RecyclerView list.
@@ -12,12 +12,12 @@ This Android application allows users to search for nearby places such as restau
 ## How It Works
 1. When the app is launched, it checks for location permissions.
 2. The app fetches the user's last known location using the **FusedLocationProviderClient** from Google Play services.
-3. Upon entering a search query (e.g., "restaurant") and pressing the "Search" button, the app sends a request to the **Google Places API** to retrieve a list of nearby places.
+3. Upon entering a search query and pressing the "Search" button, the app sends a request to the **Google Places API** to retrieve a list of nearby places.
 4. The results are displayed in a scrollable RecyclerView with details such as:
    - Place Name
    - Address
    - User Rating
-   - Distance from the current location (in kilometers)
+   - Distance from the current location
 
 ## Installation
 
@@ -29,8 +29,8 @@ This Android application allows users to search for nearby places such as restau
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/nearby-places-finder-app.git
-    cd nearby-places-finder-app
+    git clone https://github.com/Dillon-Duncan/ST10079970_OPSC_ICE_TASK_4.git
+    cd ST10079970_OPSC_ICE_TASK_4
     ```
 
 2. **Set Up Google Places API Key**:
@@ -38,7 +38,6 @@ This Android application allows users to search for nearby places such as restau
     - Create a new project (or use an existing one).
     - Enable the **Google Places API** and **Google Maps SDK**.
     - Generate an API Key under **APIs & Services** > **Credentials**.
-    - Restrict the API key to only be used by your Android app, using your app's package name and SHA-1 fingerprint.
   
 3. **Add API Key to the App**:
     - Open the file `MainActivity.kt`.
