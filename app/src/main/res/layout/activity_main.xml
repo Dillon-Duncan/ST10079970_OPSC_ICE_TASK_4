@@ -11,7 +11,7 @@
         android:id="@+id/txtSearchBar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Search for a location"
+        android:hint="Search for a place"
         android:nestedScrollingEnabled="true"
         android:padding="5dp"
         android:textColorHint="#546E7A"
